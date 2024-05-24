@@ -24,6 +24,7 @@ predictions = model.predict(X_validation)  # Making the model predict output usi
 
 for i, j in (zip(predictions, Y_validation)):
     if (i != j):
+        print("Error in predictions are: ")
         print("Predicted: ", i, "     -       Actual: ", j)
 
 # Evaluate predictions score
