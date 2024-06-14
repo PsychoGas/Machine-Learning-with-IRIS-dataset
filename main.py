@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
 # Load dataset
-url = "https://raw.githubusercontent.com/PsychoGas/ml_project/master/dataset.csv?token=GHSAT0AAAAAACSV6ROGLEAPOGAUS7SYRME2ZSQ2ZIA"
+url = "https://raw.githubusercontent.com/PsychoGas/Machine-Learning-with-IRIS-dataset/datasetUpload/dataset.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
 
